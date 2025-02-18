@@ -3,7 +3,7 @@
     <!-- <HomeTwitter />
     <HomeHero /> -->
     <HomeFeatures />
-    <HomeLogos />
-    <HomeCta />
+    <!-- <HomeLogos />
+    <HomeCta /> -->
   </main>
 </template>

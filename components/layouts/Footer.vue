@@ -18,9 +18,17 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
         target="_blank"
         title="HTML.ZONE"
       >
-        &copy; {{ new Date().getFullYear() }} Products of HTML.ZONE
+        &copy; {{ new Date().getFullYear() }} Products of Orpheusdroid &trade;
       </a>
-      <span
+      <a
+        class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
+        href="https://html.zone"
+        target="_blank"
+        title="HTML.ZONE"
+      >
+        Powered by Sink (HTML.ZONE)
+      </a>
+      <!-- <span
         class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
       >
         <a
@@ -97,7 +105,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
             class="w-6 h-6"
           />
         </a>
-      </span>
+      </span> -->
     </div>
   </section>
 </template>

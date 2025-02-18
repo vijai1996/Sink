@@ -65,7 +65,7 @@ const { title, github } = useAppConfig()
                 href="/dashboard"
                 :title="`${title} Dashboard`"
               >Dashboard</a>
-              <a
+              <!-- <a
                 :href="github"
                 target="_blank"
                 title="Github"
@@ -77,7 +77,7 @@ const { title, github } = useAppConfig()
                 GitHub</a>
               <span class="ml-1">
                 <SwitchTheme />
-              </span>
+              </span> -->
             </div>
           </div>
         </div>

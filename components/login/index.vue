@@ -24,10 +24,7 @@ async function onSubmit(form) {
     navigateTo('/dashboard')
   }
   catch (e) {
-    console.error(e)
-    toast.error('Login failed, please try again.', {
-      description: e.message,
-    })
+    toast.error('Login failed, please try again.')
   }
 }
 </script>

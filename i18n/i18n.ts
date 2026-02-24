@@ -17,7 +17,7 @@ const locales: LocaleObject[] = [
     code: 'zh-TW',
     file: 'zh-TW.json',
     name: '繁體中文',
-    emoji: '🇹🇼', 
+    emoji: '🇹🇼',
   },
   {
     code: 'fr-FR',
@@ -30,6 +30,24 @@ const locales: LocaleObject[] = [
     file: 'vi-VN.json',
     name: 'Tiếng Việt',
     emoji: '🇻🇳',
+  },
+  {
+    code: 'de-DE',
+    file: 'de-DE.json',
+    name: 'Deutsch',
+    emoji: '🇩🇪',
+  },
+  {
+    code: 'pt-PT',
+    file: 'pt-PT.json',
+    name: 'Português (PT)',
+    emoji: '🇵🇹',
+  },
+  {
+    code: 'pt-BR',
+    file: 'pt-BR.json',
+    name: 'Português (BR)',
+    emoji: '🇧🇷',
   },
 ]
 
